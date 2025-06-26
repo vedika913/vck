@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 const AddmissionPage = () => {
 return(
 <div className="container">
+     <div id="addmission">
     <h1 align="center">Admissions at Vivekanand College</h1>
     <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
     <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
@@ -15,6 +16,7 @@ return(
             <th>Minimum Marks (%)</th>
         </tr>
         </thead>
+        <tbody>
         <tr>
             <td>B.Sc. Computer Science</td>
             <td>10+2 (or equivalent)</td>
@@ -33,21 +35,22 @@ return(
             <td>Any Stream</td>
             <td>40%</td>
         </tr>
+        </tbody>
     </table>
 <h2>Application Process</h2>
-<ul type="1">
+<ol type="1">
     <li>Online Application: Fill out the application form available on our portal.Document Submission: Upload scanned copies of required documents (mark</li>
     <li>Document Submission: Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
     <li>Entrance Exam (if applicable):Appear for the college's entrance examination.</li>
     <li>Merit List & Interview: Check the merit list and attend the interview if shortlisted.</li>
     <li>Fee Payment: Complete the admission by paying the required fees.</li>
-    </ul>
+    </ol>
     <p>
         For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our
         <Link to="/courses">courses page</Link>or
         <Link to="/contact">contact us</Link>directly.
         </p>
-
+</div>
 </div>
     )
 }

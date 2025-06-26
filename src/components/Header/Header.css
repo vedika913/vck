@@ -26,6 +26,7 @@ header .right {
 }
 
 header .right nav{
+    color: #ffffff;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -49,6 +50,3 @@ header .right .button{
     font-weight: 600;
 }
 
-.logo a:hover {
-    color: white;
-}

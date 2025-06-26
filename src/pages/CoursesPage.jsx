@@ -11,7 +11,7 @@ const CoursesPage = () => {
                 <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
                 </p>
     
-            <h3>Discover Campus Life</h3>
+            <h2>Discover Campus Life</h2>
     
             <div className="video-container">
             <video src="/video/college.mp4 " controls>
@@ -21,8 +21,8 @@ const CoursesPage = () => {
 
          <h3>Undergraduate Programs (UG)</h3>
 
-    <ul>
-        <li>**Bachelor of Science (B.Sc.)**</li>
+    <ul className="courses-ul">
+        <li>Bachelor of Science (B.Sc.)</li>
     <ul type="disc">
         <li>Computer Science (3 years)</li>
         <li>Information Technology (3 years)</li>
@@ -30,14 +30,14 @@ const CoursesPage = () => {
     </ul>
     </ul>
     <ul>
-        <li>**Bachelor of Commerce (B.Com)**</li>
+        <li>Bachelor of Commerce (B.Com)</li>
          <ul type="disc">
         <li>Accounting & Finance (3 years)</li>
         <li>Accounting & Finance (3 years)</li>
         </ul>
     </ul>
     <ul>
-        <li>**Bachelor of Arts (B.A.)**</li>
+        <li>Bachelor of Arts (B.A.)</li>
         <ul type="disc">
             <li>English Literature (3 years)</li>
             <li>Psychology (3 years)</li>
@@ -52,7 +52,8 @@ const CoursesPage = () => {
     </ul>
     </ul>
     <h2>Program Details & Fee Structure (Annual)</h2>
-    <table class="table" border="1">
+    <table>
+        <thead>
         <tr>
             <th>Program Type</th>
             <th>Course Name	</th>
@@ -60,6 +61,8 @@ const CoursesPage = () => {
             <th>Anuual Fee(INR)</th>
             <th>Eligibility</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <td>UG</td>
             <td>B.Sc. Computer Science</td>
@@ -81,6 +84,7 @@ const CoursesPage = () => {
             <td>₹ 95,000</td>
             <td>B.Sc. IT/CS (50%)</td>
         </tr>
+        </tbody>
     </table>
 
     <h3>Specialized & Vocational Courses</h3>

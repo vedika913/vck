@@ -1,8 +1,12 @@
+import "./Footer.css";
+
 const Footer = () => {
   return(
-    <div>
+    <>
+    <footer>
       <p>2025 Vivekanand College. All rights resevered</p>
-    </div>
+    </footer>
+    </>
   )
 }
 export default Footer;

@@ -21,6 +21,7 @@
 #home .hero-headling p{
     font-size: 1.5em;
     margin-bottom: 25px;
+    color: #fff;
 }
 
 #home .hero-section img {
@@ -55,9 +56,24 @@
     text-align: center;
     margin-top: 30px;
 }
+#home p{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+#home ul{
+    margin-left: 60px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
 
-h1{
+
+
+#courses h1 {
     color: blue;
+    text-align: center;
 }
 
 #courses .video-container{
@@ -101,43 +117,136 @@ h1{
     background-color: #32bb52;
     transition: 0.3s ease;
 }
+ 
+#courses ul{
+    color: #555;
+    padding-bottom: 10px;
+    margin-left: 40px;
+
+}
+#courses ul li{
+     color: #555;
+     margin-top: 10px;
+}
+#courses table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#courses table thead th {
+    background-color: #E9ECEF;
+    font-weight: 700;
+    padding: 12px;
+    color: #343a40;
+}
+
+#courses table tbody td{
+    border: 1px solid #E9ECEF;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+    
+}
+
+#courses table tr:hover{
+    background-color: #E2F0FF;
+}
+
+#courses p{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
 
 #contact {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
 }
-
-#contact h2{
-    line-height: 1.6;
-    font-size: 16px;
+#contact p{
+    margin-left: 10px;
+    margin-top: 20px;
     color: #555;
+    line-height: 1.6;
 }
 
-.addmission-table {
+
+#contact h1{
+    color: blue;
+}
+
+#addmission h1{
+    color: blue;
+}
+
+#addmission p{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#addmission table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-bottom: 30px;
-    background-color: #F8F9FA;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.addmission-table th,
-.addmission-table td {
-    border: 1px solid #DEE2E6;
-    padding: 12px;
-    text-align: left;
-    font-size: 0.95em;
-}
-
-.addmission-table th {
+#addmission table thead th {
     background-color: #E9ECEF;
-    font-weight: bold;
+    font-weight: 700;
+    padding: 12px;
     color: #343a40;
 }
 
-.addmission-table tr:hover{
+#addmission table tbody td{
+    border: 1px solid #E9ECEF;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+    
+}
+
+#addmission table tr:hover{
     background-color: #E2F0FF;
 }
 
+#addmission ol li {
+    color: #555;
+    padding-bottom: 15px;
+    margin-left: 50px;
+}
+
+
+#addmission ol{
+    margin-bottom: 20px;
+}
+
+#addmission table{
+    margin-bottom: 40px;
+}
+
+#about p{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#about h1{
+    color: blue;
+}
+
+#about {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+}
+
+#about ul li{
+    color: #555;
+    padding-bottom: 10px;
+}
