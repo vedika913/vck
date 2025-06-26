@@ -1,12 +1,143 @@
-.h1 {
-    text-color: skyblue;
+#home .hero-section {
+    position: relative;
+    margin-left: 40px;
 }
-.h1 {
-    text-color: skyblue;
-}
-#courses .table {
-   background-color: #e9ecef;
-   font-weight: 700;
-   color: #343a40;
 
+#home .hero-headling {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
 }
+
+#home .hero-headling h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+#home .hero-headling p{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+#home .hero-section img {
+    width: 100%;
+    height: 300px;
+    filter: brightness(50%);
+}
+
+#home .button {
+    display: inline-block;
+    background-color: #28a745;
+    font-size: 16px;
+    font-weight: 600; 
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+#home .button:hover{
+    background-color: #32bb52;
+    transition: 0.3s ease;
+}
+
+#home .button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#home .buttom{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1{
+    color: blue;
+}
+
+#courses .video-container{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#courses .video-container video{
+    width: 100%;
+    height: auto;
+}
+
+#courses .video-container p{
+    color: #555;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#courses .button{
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+#courses .button:hover{
+    background-color: #32bb52;
+    transition: 0.3s ease;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#contact h2{
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+}
+
+.addmission-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #F8F9FA;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.addmission-table th,
+.addmission-table td {
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+.addmission-table th {
+    background-color: #E9ECEF;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.addmission-table tr:hover{
+    background-color: #E2F0FF;
+}
+

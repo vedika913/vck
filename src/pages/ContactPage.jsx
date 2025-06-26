@@ -2,19 +2,25 @@ import Header from "../components/Header/Header"
 const ContactPage = () => {
   return(
     <div>
-        <Header/>
         <div class="container">
           <div id="contact">
-    <h1>Contact Us</h1>
+    <h1 align="center">Contact Us</h1>
     <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
     <h3>General Enquiries</h3>
-    <p>Vivekanand College Main Campus</p>
+
+    <h2>Vivekanand College Main Campus</h2>
+
     <p>[Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]</p>
     <p>India</p>
+
     <p>Phone: +91 12345 67890</p>
+
     <p>Email: info@vivekanandcollege.edu</p>
+
     <p>Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST</p>
+
     <h3>Addmissions Office</h3>
+
     <p>For all admission-related queries regarding undergraduate or postgraduate programs:</p>
     <p>Phone: +91 87654 32109</p>
     <p>Email: studentsupport@vivekanandcollege.edu</p>
