@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const ContactPage = () => {
   return(
     <div>
-        <div class="container">
+
           <div id="contact">
     <h1 align="center">Contact Us</h1>
     <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
@@ -34,7 +34,6 @@ const ContactPage = () => {
 
     <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
 </div>
-    </div>
     </div>
   )
 }

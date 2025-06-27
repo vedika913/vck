@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 const AddmissionPage = () => {
 return(
-<div className="container">
      <div id="addmission">
     <h1 align="center">Admissions at Vivekanand College</h1>
     <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
@@ -50,7 +49,6 @@ return(
         <Link to="/courses">courses page</Link>or
         <Link to="/contact">contact us</Link>directly.
         </p>
-</div>
 </div>
     )
 }

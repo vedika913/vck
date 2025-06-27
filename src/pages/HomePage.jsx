@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 const HomePage = () => {
   return(
-        <div className="container">
+
             <div id="home">
               <div className="hero-section">
     <img src="/images/banner.png" alt="Vivekanand college" height="300" width="900" align="center"/>
         <div className="hero-headling">
-            <h1 align="center" text-color="white">Welcome to Vivekanand College!</h1>
+            <h1 align="center">Welcome to Vivekanand College!</h1>
             <p align="center">Your journey to excellece starts here</p>
             <Link to="/addmission" className="button">Apply Now</Link>
             </div>
@@ -21,15 +21,18 @@ const HomePage = () => {
         <li>Holistic Development: Focus on co-curricular activities, sports, and community service.</li>
         <li>Strong Placements:Excellent career opportunities with leading companies.</li>
     </ul>
-    <img src="/images/vck1.png" width="450" height="300"/>
-    <img src="/images/vck.png" width="450" height="300"/>
+
+    <div className="images">
+    <img src="/images/vck1.png" />
+    <img src="/images/vck.png" />
+    </div>
+
     <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
     <div className="buttom">
         <p className="center-text" align="center">Ready to start your journey with us?</p>
          <Link to="/courses" className="button">Explore Courses</Link>
          </div>
             </div>
-        </div>
   )
 }
 export default HomePage;

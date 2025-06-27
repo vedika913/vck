@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const CoursesPage = () => {
   return(
     
-        <div class="container">
             <div id="courses">
 
             <h1>Our Academic Programs</h1>
@@ -95,7 +94,6 @@ const CoursesPage = () => {
                 <Link to="/contact" className="button">Inquire About Courses</Link>
     
             </div>
-    </div>
   )
 }
 export default CoursesPage;
